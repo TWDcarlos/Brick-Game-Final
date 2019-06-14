@@ -70,7 +70,7 @@ class Game {
     this.blockshit = 0;
     this.power = 0;
     this.life = 5;
-    this.lvl = 9;
+    this.lvl = 1;
     this.particleS.particles = [];
     this.scoreS.allScore = [];
     this.bricks = [];
