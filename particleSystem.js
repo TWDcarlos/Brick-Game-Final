@@ -353,7 +353,7 @@ class Vehicle extends Particle {
     fill(this.col);
     stroke(0);
     strokeWeight(1);
-    circle(this.pos.x, this.pos.y, 3);
+    circle(this.pos.x, this.pos.y, 6);
     pop();
   }
 
