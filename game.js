@@ -271,7 +271,7 @@ class Game {
           this.brickCount++;
           if (this.brickCount % 5 == 0) { //if the play destroy multiples of 5 a new powerUp can be generate
             const posBrick = this.bricks[i].pos.copy();
-            this.powerUps.generateRandomPowerUp(posBrick.x, posBrick.y, this.bricks.length);
+            this.powerUps.generateRandomPowerUp(posBrick.x, posBrick.y, this.blocks.length);
           }
 
           if(activeEffects) this.particleS.addParticle(floor(random(10, 30)), this.bricks[i].pos);
